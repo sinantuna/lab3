@@ -6,20 +6,24 @@ Are there any quick questions about homework or lecture material?
 Vectors review
 --------------
 
-1. Drill 7: Convert feet to centimeters using vector (example together with entire class)
-2. Try this 4.7: Write a program that "bleeps" out words you don't like. (string comparison)
+1. Class example: create a program that converts feet to centimeters, which allows for multiple 
+numbers to be input in one line.
+2. Write a program that can detect whether or not the inputted word is a word you don't like,
+ and if it is, it will "bleep" out the word when it prints/returns.
 
 --------------
 Functions review
 --------------
-1. Describe what "char foo(int x)" means
-2. Create a quadratic equation solver from scratch that can be called by other functions and is readable, simple, clean, and efficient. Detect whether or not the roots will be real or imaginary BEFORE computation and report an error if imaginary.
+1. What does "char foo(int x)" mean?
+2. Create a quadratic equation solver program from scratch that can be called by other functions 
+and is readable, simple, clean, and efficient. Detect whether or not the roots will be real or 
+imaginary BEFORE computation and report an error if imaginary.
 
 --------------
 Error/debugging review
 --------------
 1. What needs to be try-catch for the previous functions? What errors should be thrown?
-2. Why (with a vector named v) is v[v.size()] a range error?
+2. Why (with a vector named v) is `v[v.size()]` a range error?
 3. Correct the following code: 
 ```
 double ctok(double c)
