@@ -23,7 +23,7 @@ imaginary BEFORE computation and report an error if imaginary.
 Error/debugging review
 --------------
 1. What needs to be try-catch for the previous functions? What errors should be thrown?
-2. Why (with a vector named v) is `v[v.size()]` a range error?
+2. Why is (with a vector named v) `v[v.size()]` a range error?
 3. Correct the following code: 
 ```
 double ctok(double c)
